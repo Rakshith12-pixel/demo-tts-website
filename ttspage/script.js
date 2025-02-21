@@ -2,7 +2,7 @@ let button = document.getElementById("back");
 
 function goback(event){
     event.preventDefault();
-    location.replace("/Users/rakshithrao/codes/html/html_retry/index.html");
+    location.replace("../index.html");
   } 
 
 button.addEventListener("click",goback);
