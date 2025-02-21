@@ -2,7 +2,7 @@ const button = document.getElementById("testbutton");
 
 function usage(event) {
     event.preventDefault();
-    location.replace("/Users/rakshithrao/codes/html/ttspage/index.html");
+    location.replace("../ttspage/index.html");
   } 
 
 button.addEventListener("click",usage)
