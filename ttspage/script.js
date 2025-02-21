@@ -7,7 +7,7 @@ function goback(event){
 
 button.addEventListener("click",goback);
 
-let tokenize_button = document.getElementsByClassName("glow-on-hover");
+let tokenize_button = document.getElementById("glow-on-hover");
 function tokenizeText() {
     let text = document.getElementById("input").value;
     let speakername = document.getElementById("speaker").value
