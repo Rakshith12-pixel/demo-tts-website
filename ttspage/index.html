@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="headerdiv">
+        <h1 id="heading"> Try our latest TTS model below!</h1>
+    </div>
+    <p id="maintext"> You are welcome to try our latest, cutting-edge TTS model capable of producing realistic speech for english.<br /> <br />Enter your text,choose from the available list of speakers and convert!</p>
+    <button id="back">Go back</button>
+    <div id="working">
+        <label id="inputhelp">Enter text here</label>
+        <input type="text" id="input"/>
+        <div id="speakerdiv">
+            <label id="forspeaker"> Target speaker</label>
+            <select name="Target speaker" id="speaker">
+                <option value="Rahul">Rahul</option>
+                <option value="Sanjay">Sanjay</option>
+                <option value="Divya">Divya</option>
+                <option value="Laxmi">Laxmi</option>
+            </select>
+        </div>
+        <button class="glow-on-hover">Get speech!</button>
+        <!--<button id="convert">Get speech!</button>-->
+        <div id="output">
+            <audio id="audioPlayer" controls></audio>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
